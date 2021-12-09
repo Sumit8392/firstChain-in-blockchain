@@ -1,0 +1,11 @@
+syntax = "proto3";
+package example.firstchain.firstchain;
+
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/example/firstChain/x/firstchain/types";
+
+// GenesisState defines the firstchain module's genesis state.
+message GenesisState {
+    // this line is used by starport scaffolding # genesis/proto/state
+}
